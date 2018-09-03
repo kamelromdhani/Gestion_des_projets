@@ -1,0 +1,35 @@
+﻿
+
+Manuel d’installation
+
+ 
+
+Afin de déployer cette application, Vous devez avoir installé Visual Studio 2012 : VC 11 vcredist_x64/86.exe
+Visual Studio 2012 VC 11 vcredist_x64/86.exe : http://www.microsoft.com/enus/download/details.aspx?id=30679
+,puis installer WampServer3.0.6 depuis le site officiel : http://www.wampserver.com/
+
+I.	Installation et configuration de WampServer3.0.6
+•	Double-cliquez sur le fichier téléchargé et laissez-vous guider. Tout est géré par l’installeur de WampServer.
+ Par défaut, WampServer est livré avec les toutes dernières versions d’Apache, MySQL et PHP.
+•	Une fois installé placez le dossier GestionDesProjets dans le dossier C:/wamp/www.
+•	Pour donner l’accès à d’autres ordinateurs pour pouvoir utiliser l’application vous devez  cliquer bouton gauche sur l’icône de wamp  Apachehttpd-vhosts.conf, remplacez le mot « local » par « all granted », enregistrer et fermer le fichier,
+Ensuite allez à l’icône de wamp bouton droitredémarrer toutes les services.
+Attendez quelque seconde pour qu’il redémarre puis encore une fois sur l’icône wamp bouton droit paramètres wamp  cochez menu item online/offline
+Enfin bouton gauche sur l’icône et cliquez mettre en ligne.
+Maintenant tous autre ordinateur peuvent accéder à l’application
+
+Remarque : en cas d’erreur consultez la page : http://wampserver.aviatechno.net/?lang=fr&prerequis=afficher
+
+II.	Déploiement
+Il faut juste écrire adressipserveur/GestionDesProjets/LoginPage/index.html, on peut maintenant accéder à notre application.
+
+
+
+III.	Importation de la base de données
+Bouton droit sur l’icône wampphpmyadminutilisateur : root et sans mot de passe  nouvelle base de donnéesnommez la base puis cliquez « créer » importer choisissez un fichier (gestion_projets)exécuter.
+
+Remarque : la base maintenant est vide ! 
+
+
+
+
